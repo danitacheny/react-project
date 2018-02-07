@@ -11,15 +11,17 @@ class App extends Component {
         <div>
           <NavBar />
         </div>
-        <div>
-          {Data.map((profile) => {
-            return (
-              <div>
-                <ProfileCard key={profile.id} profile={profile} />
-              </div>
-            )
-          })}
-        </div>
+        <div className="profiles__container">
+          <div className="profiles">
+            {Data.map((profile) => {
+              return (
+                <div>
+                  <ProfileCard key={profile.id} profile={profile} />
+                </div>
+              )
+            })}
+          </div>
+          </div>
       </div>
     )
   }

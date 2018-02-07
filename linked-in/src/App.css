@@ -1,3 +1,20 @@
 * {
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, sans-serif;
+}
+
+.profiles_container {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.profiles {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%;
+  padding-top: 100px;
+  margin: auto;
 }
