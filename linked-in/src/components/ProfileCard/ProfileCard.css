@@ -1,11 +1,30 @@
 .card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
   height: 250px;
   width: 200px;
   border: solid 1px lightgray;
 }
 
+.card:hover {
+  background: rgb(250, 250, 250);
+}
+
+.card__info {
+  display: flex;
+  width: 100%;
+  height: 175px;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .card__img {
   border-radius: 50%;
+  width: 100px;
+  height: auto;
 }
 
 .card__name {
@@ -24,6 +43,15 @@
 }
 
 .card__button {
-  width: 40%;
+  width: 50%;
+  color: rgb(98, 158, 201);
+  text-align: center;
+  padding: 5px 0px;
   border: solid 1px rgb(98, 158, 201);
+}
+
+.card__button:hover {
+  background: rgb(209, 236, 255);
+  color: rgb(69, 115, 148);
+  border: solid 1px rgb(69, 115, 148);
 }
