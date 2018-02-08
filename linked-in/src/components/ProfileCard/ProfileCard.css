@@ -49,6 +49,7 @@
   text-align: center;
   padding: 5px 0px;
   border: solid 1px rgb(98, 158, 201);
+  background: white;
 }
 
 .card__button:hover {
